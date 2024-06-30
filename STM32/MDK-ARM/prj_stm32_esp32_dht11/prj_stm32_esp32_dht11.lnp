@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"prj_stm32_esp32_dht11\startup_stm32f103xb.o"
+"prj_stm32_esp32_dht11\main.o"
+"prj_stm32_esp32_dht11\stm32f1xx_it.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_msp.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_gpio_ex.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_adc.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_adc_ex.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_rcc.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_rcc_ex.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_gpio.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_dma.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_cortex.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_pwr.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_flash.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_flash_ex.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_exti.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_tim.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_tim_ex.o"
+"prj_stm32_esp32_dht11\stm32f1xx_hal_uart.o"
+"prj_stm32_esp32_dht11\system_stm32f1xx.o"
+--strict --scatter "prj_stm32_esp32_dht11\prj_stm32_esp32_dht11.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "prj_stm32_esp32_dht11.map" -o prj_stm32_esp32_dht11\prj_stm32_esp32_dht11.axf
